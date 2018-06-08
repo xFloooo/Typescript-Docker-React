@@ -2,6 +2,9 @@
 
 One command for development and for production
 
+###FULL-STACK
+This is not development server. This is an assembly for server and client development at the same time
+
 ### production
 
 `docker-compose up` and goto http://localhost:8000
