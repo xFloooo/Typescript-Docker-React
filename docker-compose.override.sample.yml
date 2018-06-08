@@ -1,0 +1,6 @@
+version: '3.2'
+services:
+  backend:
+      volumes:
+          - ./:/var/www
+      command: "npm run dev"

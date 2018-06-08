@@ -1,0 +1,23 @@
+{
+  "version": "2.9.1",
+  "compilerOptions": {
+    "sourceMap": true,
+    "lib": ["dom", "es5", "es6", "es2017", "esnext.asynciterable"],
+    "jsx": "react",
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictFunctionTypes": false,
+    "declaration": false,
+    "noImplicitAny": false,
+    "noImplicitReturns": false,
+    "removeComments": true,
+    "strictNullChecks": false,
+    "baseUrl": ".",
+    "outDir": "dist"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["dist", "node_modules", "src/frontend/*"]
+}
